@@ -15,26 +15,26 @@ First you need a minimum of one file per team, the main .dds-file. Other files t
 For better management I also prefer to set up a few folders so everything has each designated area. The folder-structure I prefer looks like this (with example-names). Some file-names might not make sense yet but will be explained later in this guide:
 
 * Endurance Race
-	* Teams
-  		* Team 1
-			* Team1.dds
-			* Team1_region.dds
-  			* Team1.veh
-  		* Team 2
-  			* Team2.dds
-   			*Team2.json
-  			* Team2.veh
-	* Upgrade
-    	* car1-upgrade.ini
-    	* car2-upgrade.ini
-	* MAS
-		* Car 1 MAS
-    		* car1.mas
-		* Car 2 MAS
-    		* car2.mas
-	* rfcmp
-    	* car1.rfcmp
-    	* car2.rfcmp
+* Teams
+  * Team 1
+    * Team1.dds
+    * Team1_region.dds
+    * Team1.veh
+  * Team 2
+    * Team2.dds
+    * Team2.json
+    * Team2.veh
+  * Upgrade
+    * car1-upgrade.ini
+    * car2-upgrade.ini
+  * MAS
+    * Car 1 MAS
+      * car1.mas
+    * Car 2 MAS
+      * car2.mas
+  * rfcmp
+    * car1.rfcmp
+    * car2.rfcmp
 
 First we need to create the .veh file for each team. This one contains information about the livery used, the car number, team- and driver-name and more. To get this file you first need to open MAS2.exe which is by default in `C:\Program Files (x86)\Steam\steamapps\common\rFactor 2\Support\Tools`. I prefer to use the _x64.exe version but both versions should work.
 
@@ -44,7 +44,7 @@ After you opened the program navigate in the explorer to the path were you insta
 
 The next step is to open this file in your preferred text-editor. Locate the following lines and edit them so they match your teams info (marked with comments). The only info that is a must is the DefaultLivery which should have the exact same name as the .dds file of the teams livery.
 
-### Do not change the MaterialOverride!
+### Do not change the MaterialOverride`!`
 
 ```json
 DefaultLivery=”team1.dds” //replace with the name of the main .dds file
@@ -93,7 +93,7 @@ Next up, clear MAS2 again and click on the 6th icon. After that select `Create S
 
 Now you need to add a new component by clicking on the paper icon in the top right.
 
-### The next step is very important!
+### The next step is very important`!`
 
 Navigate to the folder where all your cars are installed. Select the car you want to create the mod for and copy the name of the folder. For the Oreca it is `Oreca_07_LMP2_2017`. Enter this name the component name
 
