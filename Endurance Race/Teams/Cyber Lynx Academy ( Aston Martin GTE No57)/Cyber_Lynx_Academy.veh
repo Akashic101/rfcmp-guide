@@ -1,0 +1,43 @@
+// The first section defines what maps to load for the vehicle skinning technology.
+// The first line defines a "prefix" to be used for all generic maps.
+// Currently, generic maps are used for the livery, wing, driver, driver arms, driver helmet, and pit crew.
+// The second line will replace the default livery with the new specified, for the track specified.
+// The format is as follows:
+//
+// DefaultLivery="PREFIX"       // PREFIX is the base texture map name, assumed to be BMP unless specified
+// PitCrewLivery="PREFIX"       // This is only needed if it differs from the default livery PREFIX
+// TrackLivery="TRACK, PREFIX"  // TRACK is the track name as defined in the event GDB
+// TrackLivery="TRACK, PREFIX"  // For example, "2004_Toban"
+// TrackLivery="TRACK, PREFIX"  // You can have an infinite # of these lines
+
+DefaultLivery="Cyber_Lynx_Academy.dds"
+MaterialOverride="AMV_GTE_BaseMat.json"
+
+HDVehicle=AM_V-GTE.hdv
+Graphics=AMV_GTE.gen
+Spinner=AMV_GTE_Spinner.gen
+Upgrades=AMV_GTE_Upgrades.ini
+GenString=                    // Used to generate GMT names in *.gen file
+Cameras=AMV_GTE.cam          // Defaults to cams.cfg in UserData directory
+Sounds=AMV_GTE.sfx          // Sounds=default.sfx
+HeadPhysics=HeadPhysics_GT.ini // Affects driver eyepoint only
+Cockpit=AMV_GTE_cockpitinfo.ini
+AIUpgradeClass=AMV-GTE
+ExternalDisplays=AMV_GTE_externalDisplay.ini
+
+//////////////////////////TEAM HISTORY AND INFORMATION///////////////////////////////////////////
+
+Number=57
+Team="Cyber Lynx Academy"
+PitGroup="Group1"
+Driver="Darijus Kostandin"
+Description="Aston Martin Vantage GTE #57"
+Engine="AM 4.0L V6"
+Manufacturer="Aston Martin"
+
+Classes="GTE, GTE_AstonMartin, LeMans24HV"
+
+FullTeamName="Aston Martin Racing"
+TeamHeadquarters=""
+
+Category="Aston Martin, Aston Martin Vantage GTE"

@@ -1,0 +1,45 @@
+// The first section defines what maps to load for the vehicle skinning technology.
+// The first line defines a "prefix" to be used for all generic maps.
+// Currently, generic maps are used for the livery, wing, driver, driver arms, driver helmet, and pit crew.
+// The second line will replace the default livery with the new specified, for the track specified.
+// The format is as follows:
+// DefaultLivery="PREFIX"       // PREFIX is the base texture map name, assumed to be BMP unless specified
+// PitCrewLivery="PREFIX"       // This is only needed if it differs from the default livery PREFIX
+// TrackLivery="TRACK, PREFIX"  // TRACK is the track name as defined in the event GDB
+// TrackLivery="TRACK, PREFIX"  // For example, "2004_Toban"
+// TrackLivery="TRACK, PREFIX"  // You can have an infinite # of these lines
+
+
+DefaultLivery="RE_Racing.dds"
+MaterialOverride="991RSR_BaseMat.json"
+
+Extra0="window"      // Windows
+
+HDVehicle=991RSR.hdv
+Graphics=991RSR.gen
+Spinner=991RSR_Spinner.gen
+Upgrades=991RSR_Upgrades.ini
+GenString=B                    // Used to generate GMT names in *.gen file
+Cameras=991RSR.cam          // Defaults to cams.cfg in UserData directory
+Sounds=991RSR.sfx          // Sounds=default.sfx
+HeadPhysics=HeadPhysics_GT.ini // Affects driver eyepoint only
+Cockpit=991RSR_cockpitinfo.ini
+AIUpgradeClass=Porsche-GTE
+ExternalDisplays=991rsr_externalDisplay.ini
+
+//////////////////////////TEAM HISTORY AND INFORMATION///////////////////////////////
+
+Number=25
+Team="RE Racing"
+PitGroup="Group1"
+Driver="Prasad Ju-Won"
+Description="Porsche 991RSR GTE #25"
+Engine="Porsche 4.0L V6"
+Manufacturer="Porsche"
+
+Classes="GTE, GTE_Porsche_991RSR, LeMans24HV"
+
+FullTeamName="Gulf Racing"
+TeamHeadquarters=""
+
+Category="Porsche, Porsche 991RSR GTE"

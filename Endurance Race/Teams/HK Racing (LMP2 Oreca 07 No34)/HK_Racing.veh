@@ -1,0 +1,45 @@
+// The first section defines what maps to load for the vehicle skinning technology.
+// The first line defines a "prefix" to be used for all generic maps.
+// Currently, generic maps are used for the livery, wing, driver, driver arms, driver helmet, and pit crew.
+// The second line will replace the default livery with the new specified, for the track specified.
+// The format is as follows:
+// DefaultLivery="PREFIX"       // PREFIX is the base texture map name, assumed to be BMP unless specified
+// PitCrewLivery="PREFIX"       // This is only needed if it differs from the default livery PREFIX
+// TrackLivery="TRACK, PREFIX"  // TRACK is the track name as defined in the event GDB
+// TrackLivery="TRACK, PREFIX"  // For example, "2004_Toban"
+// TrackLivery="TRACK, PREFIX"  // You can have an infinite # of these lines
+
+
+DefaultLivery="HK_Racing.dds"
+MaterialOverride="Oreca_07_BaseMat.json"
+
+Extra0="window"      // Windows
+
+HDVehicle=Oreca_07.hdv
+Graphics=Oreca_07.gen
+Spinner=Oreca_07_spinner.gen
+GenString=M                       // Used to generate GMT names in *.gen file
+Sounds=Oreca_07_sounds.sfx        // Sounds=default.sfx
+Cameras=Oreca_07.cam              // Defaults to default.cfg in UserData directory
+HeadPhysics=HeadPhysics_LMP.ini   // Affects driver eyepoint only
+Cockpit=Oreca_07_cockpitinfo.ini
+ExternalDisplays=Oreca_07_externalDisplays.ini
+Upgrades=Oreca_07_upgrades.ini
+
+
+//////////////////////////TEAM HISTORY AND INFORMATION///////////////////////////////
+
+Number=34
+Team="HK Racing"
+PitGroup="Group1"
+Driver="Sal Johnnie"
+Description="Oreca 07 #34"
+Engine="5.5l V8"
+Manufacturer="Oreca"
+
+Classes="DPi, LMP2, LMP2_Oreca_07, LeMans24HV"
+
+FullTeamName="AZ Racing"
+TeamHeadquarters=""
+
+Category="Oreca, Oreca 07"

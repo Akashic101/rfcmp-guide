@@ -1,0 +1,44 @@
+// The first section defines what maps to load for the vehicle skinning technology.
+// The first line defines a "prefix" to be used for all generic maps.
+// Currently, generic maps are used for the livery, wing, driver, driver arms, driver helmet, and pit crew.
+// The second line will replace the default livery with the new specified, for the track specified.
+// The format is as follows:
+// DefaultLivery="PREFIX"       // PREFIX is the base texture map name, assumed to be BMP unless specified
+// PitCrewLivery="PREFIX"       // This is only needed if it differs from the default livery PREFIX
+// TrackLivery="TRACK, PREFIX"  // TRACK is the track name as defined in the event GDB
+// TrackLivery="TRACK, PREFIX"  // For example, "2004_Toban"
+// TrackLivery="TRACK, PREFIX"  // You can have an infinite # of these lines
+
+
+DefaultLivery="Silvan_Motorsports.dds"
+MaterialOverride="F488GTE_BaseMat.json"
+
+HDVehicle=F488GTE.hdv
+Graphics=F488GTE.gen
+Spinner=F488GTE_spinner.gen
+GenString=
+Cameras=F488GTE.cam
+Sounds=F488GTE.sfx
+HeadPhysics=HeadPhysics_GT.ini
+Cockpit=F488GTE_cockpitinfo.ini
+Upgrades=F488GTE_Upgrades.ini
+AIUpgradeClass=
+ExternalDisplays=F488GTE_externalDisplays.ini
+
+
+//////////////////////////TEAM HISTORY AND INFORMATION///////////////////////////////
+
+Number=51
+Team="Silvan Motorsports"
+PitGroup="Group1"
+Driver="Frenske Halvard"
+Description="Ferrari 488 GTE #51"
+Engine="Ferrari V8"
+Manufacturer="Ferrari"
+
+Classes="GTE, GTE_FERRARI_488, "
+
+FullTeamName="Ferrari"
+TeamHeadquarters=""
+
+Category="Ferrari, Ferrari 488 GTE"
