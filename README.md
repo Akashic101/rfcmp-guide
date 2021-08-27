@@ -74,7 +74,7 @@ For the next step you will need an additional file for each car. Open again the 
 
 Next up we create the .mas file for each car. For this click the empty-page symbol in MAS2 so no files are shown anymore. Then grab each file you have for this car and drag it into the program. Also include the upgrades.ini file. If you have multiple teams driving the same car you also need to create those here. The upgrades.ini file needs to be only included once. If you have added all the files you need to click on the 5th button as shown in the image below to create the MAS file. Save this file in `Event name/Car 1 MAS`. Do this for every car and remember to use the correct `upgrades.ini` file, each car has a different one.
 
-In case you have teams driving default liveries you also need to include those. For that you need to open the .MAS-file of the car you used to extract the upgrades.ini and .veh file and add your files there instead of in a blank window. Keep in mind that the file-size will be multiple times of the version without the default liveries included.
+In case you have teams driving default liveries you also need to include those. For that you need to open the .MAS-file of the car you used to extract the upgrades.ini and .veh file. Select all files with Strg+A and extract them to a folder. After that clear MAS2 again and drag-and-drop all the files you just extracted and add your custom files too. Keep in mind that the file-size will be multiple times of the version without the default liveries included.
 
 ![Create the MAS file](https://davidmoll.net/wp-content/uploads/2021/08/15_43_25_08_2021_gMotor2_MAS_File_Utility_-_Untitled_20371-1024x185.png)
 
